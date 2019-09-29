@@ -95,6 +95,9 @@
 .itemButton{
     margin-top: 20px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
 }
 .blosd button{
     cursor: default;
