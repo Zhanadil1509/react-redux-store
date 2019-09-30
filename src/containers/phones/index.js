@@ -43,6 +43,7 @@ class Phones extends Component {
   }
 }
 
+
 const mapStateToProp = (state) => {
     return {
       phones: getPhones(state)
