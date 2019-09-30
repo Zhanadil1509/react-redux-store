@@ -17,7 +17,9 @@ class Phones extends Component {
           <div className="caption">
             <h4 className="pull-right">${v.price}</h4>
             <h4 className={''}>
-              <Link to={`/phones/${v.id}`}>{v.name}</Link>
+              <Link to={`/phones/${v.id}`}>
+                  {v.name}
+                </Link>
             </h4>
             <p>{v.description}</p>
             <p className="itemButton">
