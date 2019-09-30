@@ -16,7 +16,7 @@ class Phones extends Component {
           <img src={v.image} className="img-thumbnail" alt={v.name} />
           <div className="caption">
             <h4 className="pull-right">${v.price}</h4>
-            <h4 className={''}>
+            <h4 className={''}>д
               <Link to={`/phones/${v.id}`}>
                   {v.name}
                 </Link>
